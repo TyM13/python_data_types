@@ -43,3 +43,11 @@ def math(num_one, num_two):
     print(final_result)
 
 math(2,2)
+
+
+# alex's way below
+
+def mult_then_half(num1, num2):
+    return(num1 * num2) / 2
+
+result = mult_then_half(10,10)
