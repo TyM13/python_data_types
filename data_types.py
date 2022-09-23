@@ -14,25 +14,32 @@
 #         print('not large', number)
 
 
-clients =  [
-{
-        'username': 'user_one',
-        'age': 12,
-        'friends': ['friend_one','friend_two','friend_three']
-    },
-    {
-        'username': 'user_two',
-        'age': 18,
-        'friends': ['sam','ty']
-    },
-    {
-        'username': 'user_three',
-        'age': 21,
-        'friends': ['ty']
-    }
-]
+# clients =  [
+# {
+#         'username': 'user_one',
+#         'age': 12,
+#         'friends': ['friend_one','friend_two','friend_three']
+#     },
+#     {
+#         'username': 'user_two',
+#         'age': 18,
+#         'friends': ['sam','ty']
+#     },
+#     {
+#         'username': 'user_three',
+#         'age': 21,
+#         'friends': ['ty']
+#     }
+# ]
 
-for client in clients:
-    print(client['username'], client['age'])
-    for friend in client['friends']:
-        print(friend)
+# for client in clients:
+#     print(client['username'], client['age'])
+#     for friend in client['friends']:
+#         print(friend)
+
+
+def math(num_one, num_two):
+    final_result = num_one * num_two / 2
+    print(final_result)
+
+math(2,2)
